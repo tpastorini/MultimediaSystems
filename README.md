@@ -13,4 +13,4 @@ This library contains all graphics classes and some user interface elements. It 
 1. Integration and management of different types of elements: graphics, images, sounds and videos using a main menu and toolbar.
 2. Geometric shapes drawing like lines, rectangles, ellipses and round rectangles using different features for each of these shapes. These features would be colour, stroke, one color fill, gradient fill (vertical/horizontal), border render or opacity.
 3. Image transformations.
-  -Item1.
+  - Item1.

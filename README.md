@@ -28,4 +28,8 @@ This library contains all graphics classes and some user interface elements. It 
    - Apply a thresholding to the image.
    - Own image operations with a LookupOp, component to component and pixel to pixel operations.
  4. Sound and video players.
-    - Items de la lista.
+    - Playing audio files from your computer, .au and .wav extensions.
+    - Save your recording audio files, .au extension.
+    - Playing video files from your computer, .mpg and .mp4 extensions.
+    - Take a snapshoot when your video is playing and apply an image transformations.
+    - Take a snapshoot when your webcam catch a movement.

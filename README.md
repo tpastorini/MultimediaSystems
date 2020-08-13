@@ -37,9 +37,18 @@ This project has as goals to work at different multimedia files like images, vid
 
 This library contains all graphics classes and some user interface elements. It contains three main packages call: *graficos, imagen, iu* where you can find classes related with visualitation, shape drawing and image transformations.
 
-####
+#### Main project's classes.
+
+Main project contains five classes about app operation.
 
 ##### Ventana Principal's class.
+
+Contains a visualitation area and it allows managing an environment of internal windows.
+
+![Alt MultimediaSystems_VentanaInternaClasses](/DefinicionClasesVentanaInterna.png)
+
+A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVideo classes inherit from VentanaInterna class.
+
 ##### Ventana Interna's class.
 ##### Establecer Tam Lienzo's class.
 ##### Panel Relleno's class.

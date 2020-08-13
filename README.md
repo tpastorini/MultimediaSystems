@@ -35,9 +35,7 @@ This project has as goals to work at different multimedia files like images, vid
 
 ### Library and packages.
 
-This library contains all graphics classes and some user interface elements. It contains three main packages call: *graficos, imagen, iu* where you can find classes related with visualitation, shape drawing and image transformations.
-
-#### Main project's classes.
+#### Main project's classes. My own library: SM.TDP.Biblioteca.
 
 Main project contains five classes about app operation.
 
@@ -53,6 +51,10 @@ Main project contains five classes about app operation.
 
 5. **Redimensión Lienzo's class**. This class allows to change dimensions of your drawing area.
 
-/* #### My own library: SM.TDP.Biblioteca.
+SM.TDP.Biblioteca is a library which contains all graphics classes and some user interface elements. It contains three main packages call: *graficos, imagen, iu* which you can use classes related with visualitation, shape drawing and image transformations.
 
-This library contains definition of all shapes you can draw with this application. There are */
+1. **Graficos package**. Definition of all shapes you can draw and their properties.
+
+2. **Imagen package**. Definition of my own image transformation classes.
+
+3. **IU package**. Definition of classes about *renders*, *enum* about shapes and drawing area.

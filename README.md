@@ -41,24 +41,14 @@ This library contains all graphics classes and some user interface elements. It 
 
 Main project contains five classes about app operation.
 
-##### Ventana Principal's class.
-
-Contains a visualitation area and it allows managing an environment of internal windows.
+1. Ventana Principal's class. Contains a visualitation area and it allows managing an environment of internal windows.
 
 ![Alt MultimediaSystems_VentanaInternaClasses](/DefinicionClasesVentanaInterna.png)
 
-##### Ventana Interna's class.
+2. Ventana Interna's class. A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVLCPlayer classes inherit from VentanaInterna class.
 
-A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVLCPlayer classes inherit from VentanaInterna class.
+3. Establecer Tam Lienzo's class. This class allows users to create an drawinf area with specific or a default dimensions: width (px) and height (px).
 
-##### Establecer Tam Lienzo's class.
+4. Panel Relleno's class. Contains different types of  shape filling. It means without fill, one color fill or gradient fill (vertical/horizontal).
 
-This class allows users to create an drawinf area with specific or a default dimensions: width (px) and height (px).
-
-##### Panel Relleno's class.
-
-Contains different types of  shape filling. It means without fill, one color fill or gradient fill (vertical/horizontal).
-
-##### Redimensión Lienzo's class.
-
-This class allows to change dimensions of your drawing area.
+5. Redimensión Lienzo's class. This class allows to change dimensions of your drawing area.

@@ -33,7 +33,7 @@ This project has as goals to work at different multimedia files like images, vid
     - Take a snapshoot when your video is playing and apply an image transformations.
     - Take a snapshoot when your webcam catch a movement.
 
-### Library and packages. My own library: SM.TDP.Biblioteca.
+### Library and packages.
 
 This library contains all graphics classes and some user interface elements. It contains three main packages call: *graficos, imagen, iu* where you can find classes related with visualitation, shape drawing and image transformations.
 
@@ -41,14 +41,18 @@ This library contains all graphics classes and some user interface elements. It 
 
 Main project contains five classes about app operation.
 
-1. Ventana Principal's class. Contains a visualitation area and it allows managing an environment of internal windows.
+1. **Ventana Principal's class**. Contains a visualitation area and it allows managing an environment of internal windows.
 
 ![Alt MultimediaSystems_VentanaInternaClasses](/DefinicionClasesVentanaInterna.png)
 
-2. Ventana Interna's class. A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVLCPlayer classes inherit from VentanaInterna class.
+2. **Ventana Interna's class**. A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVLCPlayer classes inherit from VentanaInterna class.
 
-3. Establecer Tam Lienzo's class. This class allows users to create an drawinf area with specific or a default dimensions: width (px) and height (px).
+3. **Establecer Tam Lienzo's class**. This class allows users to create an drawinf area with specific or a default dimensions: width (px) and height (px).
 
-4. Panel Relleno's class. Contains different types of  shape filling. It means without fill, one color fill or gradient fill (vertical/horizontal).
+4. **Panel Relleno's class**. Contains different types of  shape filling. It means without fill, one color fill or gradient fill (vertical/horizontal).
 
-5. Redimensión Lienzo's class. This class allows to change dimensions of your drawing area.
+5. **Redimensión Lienzo's class**. This class allows to change dimensions of your drawing area.
+
+/* #### My own library: SM.TDP.Biblioteca.
+
+This library contains definition of all shapes you can draw with this application. There are */

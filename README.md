@@ -47,9 +47,18 @@ Contains a visualitation area and it allows managing an environment of internal 
 
 ![Alt MultimediaSystems_VentanaInternaClasses](/DefinicionClasesVentanaInterna.png)
 
-A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVideo classes inherit from VentanaInterna class.
-
 ##### Ventana Interna's class.
+
+A VentanaInternal's object contains a LienzoImagen2D's object which allow to apply image transformations and drawing. VentanaInternaImagen, VentanaInternaCamara and VentanaInternaVLCPlayer classes inherit from VentanaInterna class.
+
 ##### Establecer Tam Lienzo's class.
+
+This class allows users to create an drawinf area with specific or a default dimensions: width (px) and height (px).
+
 ##### Panel Relleno's class.
+
+Contains different types of  shape filling. It means without fill, one color fill or gradient fill (vertical/horizontal).
+
 ##### Redimensión Lienzo's class.
+
+This class allows to change dimensions of your drawing area.
